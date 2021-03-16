@@ -11,11 +11,11 @@ If you encounter any problems feel free to raise an issue, or maybe even a pull 
 
 Install via NuGet.org
 ```powershell
-Install-Package Our.Umbraco.FileSystemProviders.S3.Media
+Install-Package Our.Umbraco.FileSystemProviders.STC.S3.Media
 ```
 or
 ```powershell
-Install-Package Our.Umbraco.FileSystemProviders.S3.Forms
+Install-Package Our.Umbraco.FileSystemProviders.STC.S3.Forms
 ```
 
 Add the following keys to `~/Web.config`
@@ -101,7 +101,7 @@ Replace config file located `~/config/imageprocessor/security.config`
       <settings>
         <setting key="MaxBytes" value="8194304"/>
         <setting key="Timeout" value="30000"/>
-        <setting key="Host" value="http://{Your Unique Bucket Name}.s3.amazonaws.com/{Your Key Prefix}/"/>
+        <setting key="Host" value="http://{Your STC Service URL}/{Your Key Prefix}/"/>
       </settings>
     </service>
   </services>
