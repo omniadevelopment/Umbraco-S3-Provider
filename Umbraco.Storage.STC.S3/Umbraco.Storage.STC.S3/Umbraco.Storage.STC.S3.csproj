@@ -172,6 +172,7 @@
   <ItemGroup>
     <None Include="app.config" />
     <None Include="packages.config" />
+    <None Include="Umbraco.Storage.STC.S3.Core.nuspec" />
   </ItemGroup>
   <ItemGroup>
     <Analyzer Include="..\packages\AWSSDK.S3.3.3.104.17\analyzers\dotnet\cs\AWSSDK.S3.CodeAnalysis.dll" />

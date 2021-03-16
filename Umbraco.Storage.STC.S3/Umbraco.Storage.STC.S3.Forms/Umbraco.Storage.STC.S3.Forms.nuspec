@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Our.Umbraco.FileSystemProviders.STC.S3.Forms</id>
+    <version>8.1.1</version>
+    <title>$title$</title>
+    <authors>Elijah Glover, Neil Gaietto, Danny Quarton, Omnia.ae development team</authors>
+    <owners>Elijah Glover, Neil Gaietto, Danny Quarton, Omnia.ae development team</owners>
+    <licenseUrl>https://github.com/omniadevelopment/Umbraco-STC-S3-Provider</licenseUrl>
+    <projectUrl>https://github.com/omniadevelopment/Umbraco-STC-S3-Provider</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>STC S3 Object Store Filesystem provider for Umbraco Forms</description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright 2021</copyright>
+    <tags>Umbraco STC S3 Object Store Provider Forms</tags>
+    <dependencies>
+      <dependency id="Our.Umbraco.FileSystemProviders.STC.S3.Core" version="8.1.0" />
+    </dependencies>
+  </metadata>
+</package>

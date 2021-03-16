@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Our.Umbraco.FileSystemProviders.STC.S3.Core</id>
+    <version>8.1.0</version>
+    <title>$title$</title>
+    <authors>Elijah Glover, Neil Gaietto, Danny Quarton, Omnia.ae development team</authors>
+    <owners>Elijah Glover, Neil Gaietto, Danny Quarton, Omnia.ae development team</owners>
+    <licenseUrl>https://github.com/omniadevelopment/Umbraco-STC-S3-Provider</licenseUrl>
+    <projectUrl>https://github.com/omniadevelopment/Umbraco-STC-S3-Provider</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Base package for STC S3 Object Store Umbraco providers. Required by Umbraco.Storage.STC.S3.Forms and Umbraco.Storage.STC.S3.Media</description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright 2021</copyright>
+    <tags>Umbraco STC S3 Object Store Provider</tags>
+    <dependencies>
+      <dependency id="AWSSDK.Core" version="3.3.103.29" />
+      <dependency id="AWSSDK.S3" version="3.3.104.17" />
+      <dependency id="UmbracoCms.Core" version="8.1.0" />
+    </dependencies>
+  </metadata>
+</package>
